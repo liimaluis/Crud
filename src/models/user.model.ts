@@ -14,7 +14,7 @@ export class userModel{
     @Column()
     telefonecel: number;
 
-    @Column('int')
+    @Column()
     cep: number;
 
     @Column({ length: 255 })
