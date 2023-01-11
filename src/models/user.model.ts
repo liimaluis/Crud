@@ -16,4 +16,7 @@ export class userModel{
 
     @Column('int')
     cep: number;
+
+    @Column({ length: 255 })
+    area: string;
 }
